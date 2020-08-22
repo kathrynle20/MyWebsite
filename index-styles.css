@@ -1,0 +1,38 @@
+.intro{
+    height: 30vh;
+    position: center;
+    text-align: center;
+    background-color: #DEDEDE;
+}
+
+hr{
+    opacity: 0;
+}
+
+.bio{
+    background-color: #FAC1FF;
+    height: 82vh;
+    display: flex;
+    justify-content: stretch;
+    margin-top: -20px;
+}
+
+.bio-image{
+    width:46vw;
+}
+
+.bio-text{
+    width: 60vw;
+    margin-right: 30px;
+}
+
+.bio-image img {
+    height: 74vh;
+    width:auto;
+    border: 2px solid purple;
+    margin: 20px;
+}
+
+.bio-text{
+    font-size: large;
+}
