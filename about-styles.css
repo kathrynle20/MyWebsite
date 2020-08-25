@@ -1,0 +1,16 @@
+.title{
+    text-align: center;
+    padding:20px;
+    font-size: large;
+    background-color: #DEDEDE;
+}
+
+.current .current-title{
+    padding: 20px;
+    border:1px solid transparent;
+    border-style: groove;
+    border-top-color: black;
+    border-bottom-color: black;
+    background: linear-gradient(#FAC1FF
+, #EAC3FF, #DFC3FF);
+}

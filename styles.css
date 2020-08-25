@@ -4,6 +4,12 @@
 
 }
 
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color:black;
+}
+
 header{
     background-color: #A3F2FF;
     height: 75px;
@@ -61,8 +67,12 @@ footer .socials a i{
     color: purple;
 }
 
+footer .socials{
+    background-color: #A3F2FF;
+}
+
 footer .copyright{
     text-align: center;
-    background-color: #c3c3c3;
+    background-color: #849BA5;
 }
 

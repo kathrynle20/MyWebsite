@@ -1,8 +1,16 @@
 .intro{
-    height: 30vh;
     position: center;
     text-align: center;
     background-color: #DEDEDE;
+    padding:30px;
+}
+
+.intro-text h2,h3,h4{
+    padding:5px;
+}
+
+.intro-text h2{
+    font-size: 30px;
 }
 
 hr{
@@ -18,21 +26,76 @@ hr{
 }
 
 .bio-image{
-    width:46vw;
+    width:35vw;
+}
+
+.bio-image img {
+    height: 50vh;
+    width:auto;
+    border: 2px solid purple;
+    margin: 20px;
+    
+}
+
+.bio-image figcaption{
+    margin:20px;
+    margin-top: 0;
+    font-size: 15px;
 }
 
 .bio-text{
     width: 60vw;
     margin-right: 30px;
-}
-
-.bio-image img {
-    height: 74vh;
-    width:auto;
-    border: 2px solid purple;
-    margin: 20px;
+    margin-left: 20px;
 }
 
 .bio-text{
-    font-size: large;
+    font-size: 25px;
+}
+
+.bio-text a{
+    color: #9F2A7C;
+}
+
+#about,#resume,#blog,#project,#contact{
+    padding: 20px;
+    border:1px solid transparent;
+    border-style: groove;
+    text-align: center;
+}
+
+#about{
+    border-top-color: black;
+    border-bottom-color: black;
+    background: linear-gradient(#FAC1FF
+, #EAC3FF, #DFC3FF);
+}
+
+#resume{
+    border-bottom-color: black;
+    background: linear-gradient(#DFC3FF
+, #D3C3FF, #C3C9FF);
+}
+
+#blog{
+    border-bottom-color: black;
+    background: linear-gradient(#C3C9FF
+, #C3D7FF, #C3DFFF);
+}
+
+#project{
+    border-bottom-color: black;
+    background: linear-gradient(#C3DFFF
+, #C3EAFF, #C3F0FF);
+}
+
+#contact{
+    border-bottom-color: black;
+    background: linear-gradient(#C3F0FF
+,#C3F4FF, #A3F2FF);
+}
+
+.links a div:hover{
+    color: white;
+    text-shadow: 2px 2px #222;
 }
