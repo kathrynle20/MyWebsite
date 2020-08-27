@@ -6,11 +6,154 @@
 }
 
 .current .current-title{
-    padding: 20px;
     border:1px solid transparent;
     border-style: groove;
     border-top-color: black;
     border-bottom-color: black;
-    background: linear-gradient(#FAC1FF
-, #EAC3FF, #DFC3FF);
+    color:black;
+    height:10vh;
+    background-position: center;
+    background-attachment: fixed;
+    text-align:center;
+    padding-top: 30px;
+    font-size: 30px;
+    /*background: linear-gradient(#FAC1FF
+, #EAC3FF, #DFC3FF);*/
+}
+
+.about{
+    display: flex;
+    justify-content: stretch;
+    background-color: #B2E1FF;
+}
+
+.about-img{
+    margin:20px;
+    padding:5px;
+    border:1px solid black;
+}
+
+.about-img img{
+    height: 60vh;
+    width:auto;
+}
+
+.about-img figcaption{
+    position:center;
+    text-align:center;
+}
+
+.about-text{
+    margin-top: 20px;
+    margin-left:20px;
+}
+
+.blog-title{
+    color:white;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.blog-content{
+    display: flex;
+    justify-content: stretch;
+    color:white;
+    font-size: large;
+}
+
+.blog-content .blog-img img{
+    margin:20px;
+    padding:5px;
+    border:1px solid black;
+    height: 60vh;
+    width:auto;
+    margin-top:0;
+}
+
+.blog-text{
+    margin-top:20px;
+    margin-right:20px;
+}
+
+.blog-text a{
+    color:yellow;
+}
+
+.blog{
+    background-image: url("Images/background-img4.jpg");
+    background-attachment: fixed;
+}
+
+.ml-title{
+    color:white;
+    padding: 20px;
+    padding-right: 25px;
+    font-size: 30px;
+    text-align: right;
+}
+
+.ml-content{
+    display: flex;
+    justify-content: stretch;
+    color:white;
+    font-size: large;
+}
+
+.ml-content .ml-img img{
+    margin:20px;
+    padding:5px;
+    border:1px solid black;
+    height: 60vh;
+    width:auto;
+    margin-top:0;
+}
+
+.ml-text{
+    margin-top:20px;
+    margin-left:20px;
+}
+
+.ml-text a{
+    color:yellow;
+}
+
+.ml{
+    background-image: url("Images/background-img3.jpg");
+    background-attachment: fixed;
+}
+
+.steel-city-title{
+    color:white;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.steel-city-content{
+    display: flex;
+    justify-content: stretch;
+    color:white;
+    font-size: large;
+}
+
+.steel-city-content .steel-city-img img{
+    margin:20px;
+    padding:5px;
+    border:1px solid black;
+    height: 60vh;
+    width:auto;
+    margin-top:0;
+}
+
+.steel-city-text{
+    margin-top:20px;
+    margin-right:20px;
+}
+
+.steel-city-text a{
+    color:yellow;
+}
+
+.steel-city{
+    background-image: url("Images/background-img6.jpg");
+    background-attachment: fixed;
 }

@@ -1,0 +1,62 @@
+body{
+    background-color: #E8F2F6;
+}
+
+.title{
+    text-align: center;
+    padding:20px;
+    font-size: large;
+    background-color: #DEDEDE;
+}
+
+.content{
+    margin-top: 10px;
+}
+
+.skills-title{
+    border: 1px solid transparent;
+    border-color: black transparent;
+    margin-bottom: 10px;
+}
+
+.leadership-title{
+    border: 1px solid transparent;
+    border-color: black transparent;
+    margin: 10px 0;
+}
+
+.experience-title{
+    border: 1px solid transparent;
+    border-color: black transparent;
+    margin: 10px 0;
+}
+
+.experience-list{
+    padding-bottom: 10px;
+}
+
+.skills-title, .leadership-title, .experience-title{
+    padding: 20px;
+    font-size: 25px;
+}
+
+.skills-list, .leadership-list, .experience-list li{
+    list-style-type: disc;
+}
+
+.skills-list, .leadership-list, .experience-list{
+    padding-left: 40px;
+    font-size: 18px;
+}
+
+
+
+#resume{
+    padding: 20px;
+    border:1px solid transparent;
+    border-style: groove;
+    text-align: center;
+    border-top-color: black;
+    border-bottom-color: black;
+    background: linear-gradient(#8CDDF2, #B2E1EC, #D2E2E6);
+}
