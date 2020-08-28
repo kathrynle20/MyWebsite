@@ -1,0 +1,71 @@
+.title{
+    text-align: center;
+    padding:20px;
+    font-size: large;
+    background-color: #DEDEDE;
+}
+
+.perceptron{
+    padding: 20px;
+    border:1px solid transparent;
+    border-style: groove;
+    text-align: center;
+    border-top-color: black;
+    border-bottom-color: black;
+    background: linear-gradient(#D2E2E6, #B2E1EC, #8CDDF2);
+}
+
+.articles-title{
+    border: 1px solid transparent;
+    border-bottom-color: black;
+    padding: 30px;
+    background-image: url("Images/background-img5.png");
+    background-attachment: fixed;
+}
+
+.articles-title h3{
+    font-size: xx-large;
+}
+
+.articles{
+    padding-bottom: 10px;
+    padding-top:10px;
+    background-color: #E8F2F6;
+}
+
+.article{
+    display: flex;
+    justify-content: stretch;
+    margin: 60px;
+    padding: 10px;
+    padding-top:15px;
+    border: 2px solid black;
+}
+
+.article-img img{
+    height: auto;
+    width: 35vw;
+    border:1px solid black;
+    margin-right: 40px;
+}
+
+.article-text h4{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.article-text h4:hover{
+    text-decoration: underline;
+    color: #8DB5B5;
+    text-shadow: 2px 2px #222;
+    text-decoration-color:black;
+}
+
+.article-text p{
+    font-size:20px;
+    margin-bottom: 30px;
+}
+
+.article-text .date{
+    text-align: right;
+}
