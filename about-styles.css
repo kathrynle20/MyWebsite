@@ -29,13 +29,13 @@
 
 .about-img{
     margin:20px;
-    padding:5px;
-    border:1px solid black;
 }
 
 .about-img img{
     height: 60vh;
     width:auto;
+    border: 1px solid black;
+    padding: 5px;
 }
 
 .about-img figcaption{
@@ -44,8 +44,7 @@
 }
 
 .about-text{
-    margin-top: 20px;
-    margin-left:20px;
+    margin:20px;
 }
 
 .blog-title{
@@ -123,7 +122,7 @@
 }
 
 .steel-city-title{
-    color:white;
+    color:black;
     padding: 20px;
     font-size: 30px;
 }
@@ -131,7 +130,7 @@
 .steel-city-content{
     display: flex;
     justify-content: stretch;
-    color:white;
+    color:black;
     font-size: large;
 }
 
@@ -154,6 +153,6 @@
 }
 
 .steel-city{
-    background-image: url("Images/background-img6.jpg");
+    background-image: url("Images/background-img7.jpg");
     background-attachment: fixed;
 }

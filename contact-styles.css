@@ -1,0 +1,43 @@
+.title{
+    text-align: center;
+    padding:20px;
+    font-size: large;
+    background-color: #DEDEDE;
+}
+
+.content{
+    background-color: #E8F2F6;
+}
+
+.contact-notice{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.social{
+    display:flex;
+    justify-content: stretch;
+    padding: 20px 0;
+}
+
+.social .img a i{
+    margin-left: 25rem;
+}
+
+.social .img a i:hover{
+    color: dimgray;
+}
+
+.social .link {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.social .link a{
+    font-size: large;
+}
+
+.social .link a:hover{
+    text-decoration:underline;
+    color:blue;
+}

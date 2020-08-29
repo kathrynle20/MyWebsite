@@ -25,6 +25,38 @@ body{
     margin: 10px 0;
 }
 
+.leadership-content{
+    display:flex;
+    justify-content: stretch;
+}
+
+.leadership-list{
+    width: 35vw;
+}
+
+.leadership-img{
+    margin-left:250px;
+    display: flex;
+    justify-content: stretch;
+    flex-wrap: wrap;
+}
+
+.leadership-img img{
+    height: 25vh;
+    width:auto;
+    border: 1px solid black;
+    border-right-color: transparent;
+    margin: 10px;
+}
+
+.leadership-img .img2{
+    margin-top: 5px;
+}
+
+.leadership-img .img3{
+    margin-top: 5px;
+}
+
 .experience-title{
     border: 1px solid transparent;
     border-color: black transparent;
@@ -48,8 +80,6 @@ body{
     padding-left: 40px;
     font-size: 18px;
 }
-
-
 
 #resume{
     padding: 20px;

@@ -1,3 +1,7 @@
+body{
+    background-color: #E8F2F6;
+}
+
 .title{
     text-align: center;
     padding:20px;
@@ -13,6 +17,10 @@
     border-top-color: black;
     border-bottom-color: black;
     background: linear-gradient(#D2E2E6, #B2E1EC, #8CDDF2);
+}
+
+.perceptron a:hover{
+    text-decoration: underline;
 }
 
 .articles-title{
@@ -56,9 +64,8 @@
 
 .article-text h4:hover{
     text-decoration: underline;
-    color: #8DB5B5;
-    text-shadow: 2px 2px #222;
-    text-decoration-color:black;
+    color: #00A2FF;
+    text-shadow: 1px 3px navy;
 }
 
 .article-text p{
@@ -68,4 +75,10 @@
 
 .article-text .date{
     text-align: right;
+    margin-right: 20px;
+}
+
+.more{
+    margin: 5px 20px;
+    text-align:center;
 }

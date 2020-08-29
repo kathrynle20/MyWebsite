@@ -1,0 +1,110 @@
+body{
+    background-color: #E8F2F6;
+}
+
+.title{
+    text-align: center;
+    padding:20px;
+    font-size: large;
+    background-color: #DEDEDE;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+}
+
+.projects a{
+    color:blue;
+}
+
+.projects a:hover{
+    color:#6767A4;
+    text-decoration:underline;
+}
+
+.project1-title{
+    border: 1px solid transparent;
+    border-color: black transparent;
+    margin: 20px 0;
+    padding: 20px;
+    font-size: x-large;
+}
+
+.project1-img{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.project1-img img{
+    height:45vh;
+    width: auto;
+}
+
+.project1-text{
+    margin: 0 30px;
+    font-size: 20px;
+}
+
+.project2-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.project2-title{
+    border: 1px solid transparent;
+    border-color: black transparent;
+    margin: 20px 0;
+    padding: 20px;
+    font-size: x-large;
+}
+
+.project2-img{
+    margin-left: 30px;
+}
+
+.project2-img img{
+    height:50vh;
+    width:auto;
+}
+
+.project2-text{
+    margin: 0 30px;
+    font-size: 20px;
+}
+
+.project3-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.project3-title{
+    border: 1px solid transparent;
+    border-color: black transparent;
+    margin: 20px 0;
+    padding: 20px;
+    font-size: x-large;
+}
+
+.project3-img{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.project3-img img{
+    height:70vh;
+    width:auto;
+}
+
+.project3-text{
+    margin: 0 30px;
+    font-size: 20px;
+}
+
+.note{
+    margin: 5px 20px;
+    text-align:center;
+}

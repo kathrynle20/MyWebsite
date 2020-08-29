@@ -71,6 +71,10 @@ footer .socials{
     background-color: #DEDEDE;
 }
 
+footer .socials a i:hover{
+    color:#FB73FF;
+}
+
 footer .copyright{
     text-align: center;
     background-color: #849BA5;
